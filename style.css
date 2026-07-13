@@ -364,3 +364,54 @@ padding:80px 7%;
 }
 
 }
+.hidden{
+
+opacity:0;
+
+transform:translateY(40px);
+
+transition:.8s ease;
+
+}
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+.hero{
+
+animation:zoom 12s infinite alternate;
+
+}
+
+@keyframes zoom{
+
+from{
+
+background-size:100%;
+
+}
+
+to{
+
+background-size:110%;
+
+}
+
+}
+
+.gold-btn,.blue-btn{
+
+cursor:pointer;
+
+}
+
+.card{
+
+cursor:default;
+
+}
