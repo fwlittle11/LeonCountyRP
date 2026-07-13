@@ -15,15 +15,22 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 40px;
+    padding: 20px 50px;
     background: #0b0b0b;
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin-left: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
 }
+
+.navbar a:hover {
+    color: #c9a227;
+}}
 
 /* Hero Section */
 .hero {
